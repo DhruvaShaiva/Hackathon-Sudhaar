@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Register Complaint | Sudhaar</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script>document.getElementById("myForm").style.display = "none";</script>
+    </head>
+    <body>
+       <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a href="home.html"><img src="sudhaar.png" alt="sudhaar" style="width:110px; height: 51.48px;"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="register.html"><span class="glyphicon glyphicon-pencil"></span> <b>Register Complaint</b></a></li>
+                        <li><a href="view_complaint.php"><span class="glyphicon glyphicon-search"></span> <b>View Complaint</b></a></li>
+						<li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> <b>Contact Us</b></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	
+	<div>
+		<img src="Header_Image.png" alt="header" width="100%" height="100%" >
+	</div>
+	
+	<div style="background-color:#eaeaea">
+		<div class="container">
+		<br><h1 style="color:#f9c416"><b>Register Your Complaint:</b></h1><br>
+		<p style="font-size:18px">To register your complaint, kindly fill the form below.<br><br>
+		<center>
+			<button type="submit" name="submit" class="btn btn-primary" style="background-color: #f9c416; border: none;" onclick="openForm()">Register Complaint</button><br>
+		</center>	
+			<br><br>
+			<div class="form-popup" id="myForm">
+			<div class="row">
+			<div class="col-xs-5 col-xs-offset-4">
+				<div class="panel panel-primary" >
+					<div class="panel-heading"><h4>Complaint Registeration Form</h4></div>
+					<div class="panel-body">
+                    <form action="process.php" method="post" enctype="multipart/form-data">
+						<label>Enter the category of your complaint:</label>
+						<div class="form-group">
+							<select id="category" name="category">
+								<option value="Water">Water Leakage Problem</option>
+								<option value="Greenery">Greenery Issue</option>
+								<option value="Garbage">Garbage Issue</option>
+								<option value="other">Other Issue</option>
+							</select>
+						</div>
+						<label>Enter the location of complaint issue:</label>
+						<div class="form-group"><input type="text" class="form-control"  placeholder="Lane/Street Number" name="lane" id="lane" required = "true"></div>
+						<div class="form-group"><input type="text" class="form-control"  placeholder="Area/Locality" name="area" id="area" required = "true"></div>
+						<div class="form-group"><input type="text" class="form-control"  placeholder="Landmark (optional)" name="landmark" id="landmark"></div>
+						<div class="form-group"><input type="text" class="form-control"  placeholder="City" name="city" id="city"></div>
+						<div class="form-group"><input type="number" class="form-control"  placeholder="Pincode" name="pincode" id="pincode" required = "true"></div>
+						<label>Describe the complaint/issue:</label>
+						<div class="form-group"><textarea class="form-control" placeholder="Complaint Description" name="description" id="description" style="height:200px" required = "true"></textarea></div>
+						<label>Upload any image (png/jpg/jpeg format) related to the complaint/issue: (OPTIONAL)</label>
+						<div class="form-group"><input type="file" class="form-control"  placeholder="Image" name="image" id="image"></div>
+						<label>Enter your email id to get Reference ID of complaint: (OPTIONAL)</label>
+						<div class="form-group"><input type="email" class="form-control"  placeholder="E-mail id" name="mail" id="mail"></div>
+						<button type="submit" name="register" class="btn btn-primary" onclick="closeForm()">Register</button><br>
+						
+                    </form>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+		</div>
+		<br><br><br><br>
+	</div>
+	<script>
+	function openForm() {
+		document.getElementById("myForm").style.display = "block";
+	}
+	function closeForm() {
+		document.getElementById("myForm").style.display = "none";
+	}
+	</script>
+
+	<footer>
+		<div class="container">
+			<center>
+				<p>© Sudhaar | All Rights Reserved
+			</center>
+		</div>
+	</footer>
+</body>
+</html>
