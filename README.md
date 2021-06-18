@@ -23,4 +23,29 @@ Our proposed roadmap on next steps of our app idea is given below:
 ![Solution Roadmap](/Roadmap.png)
 
 
-## Long Description
+## Long Description : सुdhaar - Leading Cities to a Sustainable Future
+_सुधार_ in English means improvement. In order to achieve the goal of Sustainable Development of Cities and Communities, it is not only required to provide the necessary infrastructure, but efficient and effective planning and management of the cities is equally important. Therefore, our idea for this hackathon of #HackToSustainability is to provide a web application platform that can help in improvement of urban planning which in turn creates safe, affordable and resilient cities with green and culturally inspiring living conditions.<br>
+Residents generally face everyday problems that come under the management and administration of the municipal authorities, but are unable to inform or help them in identifying these issues. It can be because of the absence of a direct communication medium, or complexity in communication channels and time, or extra time and effort that needs to be spent, or unawareness of possible ways to send their message to the administration. Therefore, this creates a need for an idea that will grant a solution to an easily accessible and simple way of establishing connection between the two sections of the community.<br>
+Through this web app people can easily raise their complaints concerning the common city standards- such as garbage disposal, water leakage, greenery destruction, etc. to their respective municipal authorities. In this way, everyone in the community can contribute their own part in making the city and community life better and more sustainable. 
+
+### Modules in the Web Application
+
+#### Registration of Complaints
+* People can register their complaint by filling the form given in the _Register Complaint_ page.
+* Registration Form contains the fields for complaint Category (related to water, garbage, greenery or others), Location of the complaint in the city (generally used address fields), Complaint Description, supporting Image(optional) and E-mail id.
+* When _Register_ button is clicked, a Reference-id of the complaint is generated, the entered details are submitted to our database, and the overall details are mailed to the respective municipal authority as well as the complainant.
+
+#### Viewing Complaints
+* Using the Reference-id, submitted complaint details can be viewed from the _View Complaint_ page of the website.
+
+#### Contacting the Admin team
+* It can be done using the form given in the _Contact Us_ page.
+
+### Conclusion
+Using the web-app, people can successfully mail their complaints directly to the municipal authorities, without the intervention of any third person/medium.
+
+### Result
+After public deployment of this idea, if people notice some garbage littered on the roads, or water leakage from pipes, or destruction of greenery nearby, then they can easily bring it up to the authorities, which may lead to faster identification/addressal of the issue.
+
+### Future Work
+Some features are planned to be added in the future as well, which are already mentioned in the _Solution Roadmap_ section.
