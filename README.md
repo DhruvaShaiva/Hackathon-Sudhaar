@@ -10,42 +10,17 @@ While the UN has set the goal of Sustainable Cities and Communities - to make th
 ### How can technology help?
 People can register their complaints related to issues concerning common city standards- such as garbage disposal, water leakaage, greenery destruction, etc. - to their repective municipal authorities on the online portals that are easily accessible to all.
 
-### The idea
-If the communicating mediums between the people and the administrating authorities is reduced, then there is a chance that identification of urban issues in cities will become easier. Providing an online platform that is simple to use and accessible just with a click, and which directly send complaints to the authorities, will aid the communication between peopleand the authorities.
+### The Idea
+If the communicating mediums between the people and the administrating authorities is reduced, then there is a chance that identification of urban issues in cities will become easier. Providing an online platform that is simple to use and accessible just with a click, and which directly send complaints to the authorities, will aid the communication between peopleand the authorities.<br>
 
-## Demo video
+## Demo Video
 Watch the video at : https://youtu.be/AvreQ1QbnYI
 
 ## Solution Roadmap
-The project currently does the following things.
+It's currently deployed on IBM Cloud using IBM Clound Foundry. In the future, we plan to make use of further advanced IBM Cloud Services.
 
-Feature 1
-Feature 2
-Feature 3
-It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run on Red Hat OpenShift, for example.
+Our proposed roadmap on next steps of our app idea is given below:
+![Solution Roadmap](/Roadmap.png)
 
-See below for our proposed schedule on next steps after Call for Code 2021 submission.
 
-Roadmap
-
-Long description
-More detail is available here
-
-Getting started
-In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-sample-react-app
-sample-angular-app
-Explore other projects
-Live demo
-You can find a running system to test at callforcode.mybluemix.net.
-
-Built with
-IBM Cloudant - The NoSQL database used
-IBM Cloud Functions - The compute platform for handing logic
-IBM API Connect - The web framework used
-Dropwizard - The web framework used
-Maven - Dependency management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+## Long Description
