@@ -1,5 +1,7 @@
 # सुdhaar - Leading Cities to a Sustainable Future
 
+![सुdhaar](/sudhaar.png)
+
 ## Short Description
 ### What's the problem?
 According to the India water portal report (2019) by Bangalore Water Supply and Sewerage Board, around 360,000,000 litres of water go waste every day due to leakage and similar reasons in Bangalore. According to data from the Ministry of Environment, Forests and Climate Change (MoEF), around 10.8 lakh trees were illegally cut in India during 2016-19. Around 40% of plastic waste in India remains uncollected and littered on the streets, according to a study released by Central Pollution Control Board (CPCB) in 2019.<br>
@@ -14,17 +16,7 @@ If the communicating mediums between the people and the administrating authoriti
 ## Demo video
 Watch the video at : https://youtu.be/AvreQ1QbnYI
 
-The architecture
-Video transcription/translation app
-
-The user navigates to the site and uploads a video file.
-Watson Speech to Text processes the audio and extracts the text.
-Watson Translation (optionally) can translate the text to the desired language.
-The app stores the translated text as a document within Object Storage.
-Long description
-More detail is available here
-
-Project roadmap
+## Solution Roadmap
 The project currently does the following things.
 
 Feature 1
@@ -35,6 +27,9 @@ It's in a free tier IBM Cloud Kubernetes cluster. In the future we plan to run o
 See below for our proposed schedule on next steps after Call for Code 2021 submission.
 
 Roadmap
+
+Long description
+More detail is available here
 
 Getting started
 In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
